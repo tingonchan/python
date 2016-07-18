@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jul 18 15:28:03 2016
+
+@author: Ting
+"""
+
+import numpy as np
+
+a = np.array([[1, 2, 3],[4, 5, 6],[7, 8, 9]])
+
+ii = np.where((a > 5) & (a <8))
+
+# ii = np.nonzero((a > 5) & (a <8))
+
+
+print ii
