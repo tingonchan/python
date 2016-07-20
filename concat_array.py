@@ -1,4 +1,18 @@
-# declare an empty array
+a = np.array([]).reshape(0,2)
+
+
+for i in range(0,11,1):
+    a = np.vstack((a,np.array([i, i**2])))
+    
+print a
+
+print a.shape
+
+#------------------------------------------------------
+# or the following
+#------------------------------------------------------
+
+
 a = np.array([])
 
 x = 1
